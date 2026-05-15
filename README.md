@@ -38,7 +38,7 @@ The battery wires run underneath the trigger box, then join the push button wire
 
 All other components are stuffed into the barrel itself.
 
-![Battery and button placement](images/image2.jpg)
+![Battery and button placement](images/image4.jpg)
 
 ---
 
