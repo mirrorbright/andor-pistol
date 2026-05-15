@@ -16,9 +16,9 @@ Model from MysteryMakers:
 
 I printed mine in ABS because it's easier to sand and finish. PLA would work fine as well. I printed this as part of the full blaster configuration, which is a **fantastic** model, and this was fun to build.
 
-Pistol Showcase: <https://www.instagram.com/mirrorbrightcosplay/reel/DXWuK6rjmWj/>
-Full Blaster Assembley: <https://www.instagram.com/mirrorbrightcosplay/reel/DX75IciN_oa/>
-Full Blaster Glamour Shots: <https://www.instagram.com/p/DXjxnaqjs0w>
+- Pistol Showcase: <https://www.instagram.com/mirrorbrightcosplay/reel/DXWuK6rjmWj/>
+- Full Blaster Assembley: <https://www.instagram.com/mirrorbrightcosplay/reel/DX75IciN_oa/>
+- Full Blaster Glamour Shots: <https://www.instagram.com/p/DXjxnaqjs0w>
 
 ---
 
