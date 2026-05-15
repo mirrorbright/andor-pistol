@@ -2,6 +2,8 @@
 
 This document describes the process of adding working electronics and servo-driven mechanical animation to the 3D-printed Star Wars Andor pistol prop by MysteryMakers. The build includes a sound system capable of playing blaster and alternate sound effects, a servo-actuated moving component, and a single-button interface to control everything. Power is provided by a rechargeable LiPo battery with a regulated 5V supply.
 
+![Hero Shot](images/image3.jpg)
+
 ---
 
 ## 3D Model & Print Notes
@@ -13,6 +15,10 @@ Model from MysteryMakers:
 - Full blaster configuration: <https://cults3d.com/en/3d-model/various/mw20-blaster-rifle-configuration-mysterymakers>
 
 I printed mine in ABS because it's easier to sand and finish. PLA would work fine as well. I printed this as part of the full blaster configuration, which is a **fantastic** model, and this was fun to build.
+
+- Pistol Showcase: <https://www.instagram.com/mirrorbrightcosplay/reel/DXWuK6rjmWj/>
+- Full Blaster Assembley: <https://www.instagram.com/mirrorbrightcosplay/reel/DX75IciN_oa/>
+- Full Blaster Glamour Shots: <https://www.instagram.com/p/DXjxnaqjs0w>
 
 ---
 
@@ -36,7 +42,7 @@ The battery wires run underneath the trigger box, then join the push button wire
 
 All other components are stuffed into the barrel itself.
 
-![Battery and button placement](images/image1.png)
+![Battery and button placement](images/image4.jpg)
 
 ---
 
@@ -59,9 +65,9 @@ All components are powered from the Adafruit PowerBoost 1000, which accepts the 
 
 > **Note:** These are the Nano digital pins I decided on. If you want to move the button input to D2, nothing should stop you.
 
-![Wiring diagram](images/image2.jpg)
+![Wiring diagram](images/image1.png)
 
-![Internal wiring](images/image3.jpg)
+![Internal wiring](images/image5.jpg)
 
 ---
 
@@ -94,7 +100,13 @@ Sound files must be loaded onto the Audio FX board's onboard flash storage. The 
 
 Files should be 16-bit, 44.1kHz WAV format for best compatibility with the board. The board's built-in 2x2W amplifier drives the 4 Ohm 3W speaker directly with no external amplifier needed.
 
-Your sound files go in the `sounds/` folder of this repo.
+The sound files I used are in this repo under `sounds/`.
+
+### Editor's Note
+
+This setup is overly complicated because I wanted the pistol to behave a certian way. It would be simpler to have the nano trigger the sound files via their trigger pins instead of SoftwareSerial, and for you that might be better. 
+
+Full soundboard tutoral here: <https://learn.adafruit.com/adafruit-audio-fx-sound-board/downloads>
 
 ---
 
@@ -106,9 +118,7 @@ When soldering the components together, I would suggest being as compact as poss
 
 Excuse the mess.
 
-![Assembly internals](images/image4.jpg)
-
-![Assembly complete](images/05-assembly-complete.jpg)
+![Assembly internals](images/image2.jpg)
 
 ---
 
@@ -120,7 +130,7 @@ The full Arduino sketch (`AndorPistol.ino`) is included with this project. Key l
 - `SoftwareSerial.h` — built into Arduino IDE
 - `Adafruit_Soundboard.h` — install via Arduino Library Manager: search "Adafruit Soundboard"
 
-I did go overboard with the soundboard, but I wanted it to work like it did in my head.
+The code is a bit of a mess, but it works for how I had it in my head. A simple delay before rotating the barrel is easy to extract from the code.
 
 ---
 
@@ -142,4 +152,4 @@ These are the specific components I used, but a few are common enough that any e
 
 ## More Questions?
 
-Find me on Instagram: <https://instagram.com/mirrorbrightcosplay>
+Send me a message on Instagram: <https://instagram.com/mirrorbrightcosplay>
