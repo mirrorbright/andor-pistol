@@ -152,4 +152,4 @@ These are the specific components I used, but a few are common enough that any e
 
 ## More Questions?
 
-Find me on Instagram: <https://instagram.com/mirrorbrightcosplay>
+Send me a message on Instagram: <https://instagram.com/mirrorbrightcosplay>
