@@ -96,7 +96,13 @@ Sound files must be loaded onto the Audio FX board's onboard flash storage. The 
 
 Files should be 16-bit, 44.1kHz WAV format for best compatibility with the board. The board's built-in 2x2W amplifier drives the 4 Ohm 3W speaker directly with no external amplifier needed.
 
-Your sound files go in the `sounds/` folder of this repo.
+The sound files I used are in this repo under `sounds/`.
+
+### Editor's Note
+
+This setup is overly complicated because I wanted the pistol to behave a certian way. It would be simpler to have the nano trigger the sound files via their trigger pins instead of SoftwareSerial, and for you that might be better. 
+
+Full soundboard tutoral here: <https://learn.adafruit.com/adafruit-audio-fx-sound-board/downloads>
 
 ---
 
@@ -120,7 +126,7 @@ The full Arduino sketch (`AndorPistol.ino`) is included with this project. Key l
 - `SoftwareSerial.h` — built into Arduino IDE
 - `Adafruit_Soundboard.h` — install via Arduino Library Manager: search "Adafruit Soundboard"
 
-I did go overboard with the soundboard, but I wanted it to work like it did in my head.
+The code is a bit of a mess, but it works for how I had it in my head. A simple delay before rotating the barrel is easy to extract from the code.
 
 ---
 
