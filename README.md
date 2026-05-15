@@ -2,6 +2,8 @@
 
 This document describes the process of adding working electronics and servo-driven mechanical animation to the 3D-printed Star Wars Andor pistol prop by MysteryMakers. The build includes a sound system capable of playing blaster and alternate sound effects, a servo-actuated moving component, and a single-button interface to control everything. Power is provided by a rechargeable LiPo battery with a regulated 5V supply.
 
+![Hero Shot](images/image3.jpg)
+
 ---
 
 ## 3D Model & Print Notes
@@ -36,7 +38,7 @@ The battery wires run underneath the trigger box, then join the push button wire
 
 All other components are stuffed into the barrel itself.
 
-![Battery and button placement](images/image1.png)
+![Battery and button placement](images/image2.jpg)
 
 ---
 
@@ -59,9 +61,9 @@ All components are powered from the Adafruit PowerBoost 1000, which accepts the 
 
 > **Note:** These are the Nano digital pins I decided on. If you want to move the button input to D2, nothing should stop you.
 
-![Wiring diagram](images/image2.jpg)
+![Wiring diagram](images/image1.png)
 
-![Internal wiring](images/image3.jpg)
+![Internal wiring](images/image5.jpg)
 
 ---
 
@@ -106,9 +108,7 @@ When soldering the components together, I would suggest being as compact as poss
 
 Excuse the mess.
 
-![Assembly internals](images/image4.jpg)
-
-![Assembly complete](images/05-assembly-complete.jpg)
+![Assembly internals](images/image2.jpg)
 
 ---
 
