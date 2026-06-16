@@ -141,7 +141,7 @@ These are the specific components I used, but a few are common enough that any e
 | Component | Link |
 |---|---|
 | MG90S Servo | <https://www.amazon.com/dp/B0925V3X2S> |
-| Arduino Nano | <https://www.amazon.com/B0713XK923> |
+| Arduino Nano | <https://www.amazon.com/dp/B0713XK923> |
 | 4 Ohm 3W Speaker | <https://www.amazon.com/dp/B0F3CY5ZD2> |
 | Adafruit Audio FX Sound Board + 2x2W Amp | <https://www.adafruit.com/product/2210> |
 | Adafruit PowerBoost 1000 Basic | <https://www.adafruit.com/product/1903> |
