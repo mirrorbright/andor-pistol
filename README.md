@@ -6,6 +6,13 @@ This document describes the process of adding working electronics and servo-driv
 
 ---
 
+## Update 7/20/26
+
+Added new file AndorPistol-NoAudio.ino
+This file removes all the audio portions of the code in case you only want to use the servo to spin the barrel. It aslo doesn't have a delay in spinning, just spins when the trigger is pressed.
+
+---
+
 ## 3D Model & Print Notes
 
 Model from MysteryMakers:
